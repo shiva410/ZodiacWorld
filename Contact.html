@@ -67,30 +67,29 @@
 		<section id="contact">
 <br>
 <br>
-			            <h1>Contact Us</h1>
+	<h1>Contact Us</h1>
 
-					<form id="contactform" action="" method="post">
+	  <form id="contactform" action="Submit_Confirmation.html" method="post">
 
-	    <fieldset>
-			<legend> Personal Information </legend>
-			<label for="firstname">First name:<input id="firstname" type="text" name="firstname" placeholder="Enter Your First Name" required autofocus autocomplete="off"></label>
+	  <fieldset>
+		<legend> Personal Information </legend>
+		<label for="firstname">First name:<input id="firstname" type="text" name="firstname" placeholder="Enter Your First Name" required autofocus autocomplete="off"></label>
 
-	    
-			<label for="lastname">Last name:<input id="lastname" type="text" name="lastname" placeholder="Enter Your Last Name" required></label>
-			<label for="email">Email:<input id="email" type="email" name="customeremail" placeholder="Required Field" required></label>
 
+		<label for="lastname">Last name:<input id="lastname" type="text" name="lastname" placeholder="Enter Your Last Name" required></label>
+		<label for="email">Email:<input id="email" type="email" name="customeremail" placeholder="Required Field" required></label>
+	   </fieldset>
+	   <fieldset>
+		<legend>Additional Information</legend>
+		  <p>Would you like to subscribe to the ZodiacWorld e-mail newsletter? </p>
+		<ol>
+			<li> <input name="subscribe" id="yes" type="radio"> <label for="yes">Yes</label> </li>
+			<li> <input name="subscribe" id="no" type="radio"> <label for="no">No</label> </li>
+		</ol>
 		</fieldset>
-		<fieldset>
-			<legend>Additional Information</legend>
-			<p>Would you like to subscribe to the ZodiacWorld e-mail newsletter? </p>
-			<ol>
-				<li> <input name="subscribe" id="yes" type="radio"> <label for="yes">Yes</label> </li>
-				<li> <input name="subscribe" id="no" type="radio"> <label for="no">No</label> </li>
-			</ol>
-		</fieldset>
-						<input type="submit" value="Submit" formaction="Submit_Confirmation.html">
+			<input type="submit" value="Submit" formaction="Submit_Confirmation.html">
 
-					</form>
+	   </form>
 <br><br>
  <body onload="initialize()" onunload="GUnload()">
   <section id="wrapper">
